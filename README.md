@@ -20,7 +20,12 @@ It includes:
 
 ---
 
-##Run App locally
+##To Run App locally
+
+### 1) Prerequisites
+- Java 21 installed
+
+
 Using Windows Command Prompt
 gradlew.bat bootRun --args="--spring.profiles.active=dev"
 
@@ -87,10 +92,10 @@ Click **Apply → Run**
 - OpenAPI JSON: http://localhost:8080/v3/api-docs
 
 
-### 1) Prerequisites
-- Java 21 installed
 
-### 2) Run the service
+## Docker
+
+### Build Docker Image
 ```bash
-./gradlew clean build
-./gradlew bootRun
+docker build -t starter-service-template .
+
