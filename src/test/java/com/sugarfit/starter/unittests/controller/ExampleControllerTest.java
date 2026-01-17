@@ -1,5 +1,6 @@
-package com.sugarfit.starter.controller;
+package com.sugarfit.starter.unittests.controller;
 
+import com.sugarfit.starter.controller.ExampleController;
 import com.sugarfit.starter.dto.ExampleResponse;
 import com.sugarfit.starter.service.ExampleService;
 import org.junit.jupiter.api.Test;

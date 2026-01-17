@@ -1,9 +1,9 @@
-package com.sugarfit.starter.service;
-
+package com.sugarfit.starter.unittests.service;
 
 
 import com.sugarfit.starter.dto.ExampleRequest;
 import com.sugarfit.starter.dto.ExampleResponse;
+import com.sugarfit.starter.service.ExampleService;
 import com.sugarfit.starter.service.impl.ExampleServiceImpl;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
